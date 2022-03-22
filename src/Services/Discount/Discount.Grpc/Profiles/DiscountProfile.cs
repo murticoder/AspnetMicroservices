@@ -13,7 +13,6 @@ namespace Discount.Grpc.Profiles
         public DiscountProfile()
         {
             CreateMap<Coupon, CouponModel>().ReverseMap();//her iki yonde de mapping yaparsin
-
         }
     }
 }
